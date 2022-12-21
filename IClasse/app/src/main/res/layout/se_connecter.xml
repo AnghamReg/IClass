@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".view.SeConnecter"
+    android:background="@drawable/background"
+    >
+
+    <TextView android:id="@+id/txtTitre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:text="Se connecter :"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        tools:ignore="MissingConstraints"
+        android:layout_marginBottom="20dp"
+        />
+
+    <TableLayout android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+            <TableRow>
+
+                        <TextView
+                            android:id="@+id/adresseemailtxt"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="50dp"
+                            android:layout_marginStart="30dp"
+                            android:textSize="20sp"
+                            android:textStyle="bold"
+                            android:textColor="@color/black"
+                            android:text="@string/Adresseemail"
+                            />
+
+                         <EditText
+                             android:id="@+id/adresseemailSeConnecter"
+                             android:layout_width="150dp"
+                             android:layout_height="40dp"
+                             android:layout_marginStart="20dp"
+                             android:layout_marginTop="50dp"
+                             android:autofillHints=""
+                             android:textColor="@color/black"
+                             android:hint="Adresse email"
+                             android:background="@drawable/custom_table_white"
+                             android:inputType="text"
+                           />
+            </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/motdepassetxt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="30dp"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:text="@string/motDePasse"
+                />
+
+            <EditText
+                android:id="@+id/motdepasseSeConnecter"
+                android:layout_width="10dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+                android:autofillHints=""
+                android:textColor="@color/black"
+                android:background="@drawable/custom_table_white"
+                android:hint="Mot de passe"
+                android:inputType="textPassword"
+                />
+        </TableRow>
+
+
+        <Button android:id="@+id/btnSeConnecter"
+            android:layout_marginStart="100dp"
+            android:layout_marginEnd="100dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_gravity="center"
+            android:text="@string/seConnecter"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            />
+
+        <TextView android:id="@+id/resultatSeConnecter"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="30dp"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/red"
+            android:text=""
+            />
+
+
+    </TableLayout>
+</LinearLayout>

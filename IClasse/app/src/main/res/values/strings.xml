@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">IClasse</string>
+    <string name="enseignant">Enseignant</string>
+    <string name="étudiant">Etudiant</string>
+    <string name="Adresseemail">Adresse email :</string>
+    <string name="motDePasse">Mot de passe :</string>
+    <string name="nom">Nom :</string>
+    <string name="prenom">Prènom :</string>
+    <string name="compteNexistePas">Vous n\'avez pas un compte ?</string>
+    <string name="compteExiste">Vous avez déjà un compte ?</string>
+    <string name="seConnecter">Se connecter</string>
+    <string name="creerCompte">Créer un compte</string>
+</resources>
