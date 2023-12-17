@@ -1,5 +1,5 @@
 # IClass
-Application composée par 2 projets : client + serveur
+ composée par 2 applications : client + serveur
 
 
 
